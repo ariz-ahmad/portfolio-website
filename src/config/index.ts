@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in Atlanta, United States. Versatile software engineer with 6+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
   lang: "en",
-  siteLogo: "/ariz-small.jpg",
+  siteLogo: "/ariz-small.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -66,22 +66,22 @@ export const SITE_CONTENT: SiteContent = {
       name: "Loc8r",
       summary: "Fullstack application using MongoDB, Express, Angular, and Node.js to list nearby places with Wi-Fi, including timings, locations and reviews.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      linkSource: "https://github.com/ariz-ahmad/loc8r",
+      image: "/loc8r.png",
     },
     {
       name: "WhatsPackt",
       summary: "Android messaging application implementing real-time communication using WebSockets, data persistence, bcakup with Room and Firebase cloud storage.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/ariz-ahmad/whatspackt",
+      image: "/whatspackt.png",
     },
     {
       name: "MCP Weather Server",
       summary: "Weather MCP server based on the AccuWeather REST API and integrated it to a travel agent for live weather data.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      linkSource: "https://github.com/ariz-ahmad/mcp-weather",
+      image: "/mcp.png",
     },
   ],
   about: {
@@ -90,7 +90,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications and pipelines that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/ariz-big.jpg",
+    image: "/ariz-big.jpeg",
   },
 };
 
