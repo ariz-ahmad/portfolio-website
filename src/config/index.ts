@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Software Engineer based in Atlanta, United States. Versatile software engineer with 6+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/ariz-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -90,7 +90,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications and pipelines that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/ariz-big.jpg",
   },
 };
 
