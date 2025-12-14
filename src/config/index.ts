@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Ariz Ahmad — Mobile & AI Developer",
+  title: "Ariz Ahmad — Software Engineer",
   author: "Ariz Ahmad",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Software Engineer based in Atlanta, United States. Versatile software engineer with 6+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
   lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
@@ -13,11 +13,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/ariz-ahmad/" },
+    { text: "Github", href: "https://github.com/ariz-ahmad"},
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -26,60 +23,62 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Ariz Ahmad",
-    specialty: "Mobile & AI Developer",
+    specialty: "Software Engineer",
     summary:
-      "Developer based in Atlanta, USA. I specialize in Android design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    "Software Engineer based in Atlanta, United States. Versatile software engineer with 6+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
+    email: "ariz.ahmad.ds@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Microsoft",
+      position: "Software Engineer",
+      startDate: "Feb 2022",
+      endDate: "Present",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Onboarded 15+ enterprise teams to OAP analytics platform, migrating 200+ TB of data workloads and achieving 40% reduction in query latency through optimized Spark configurations and columnar storage strategies.",
+        "Built automated onboarding pipelines and self-service tooling using Python/Scala that reduced customer integration time from 2 weeks to 3 days, enabling 100+ successful production deployments.",
+        "Developed AI-powered documentation assistant and intelligent troubleshooting tools using LLMs (OpenAI API/Azure OpenAI) that automated 60% of common onboarding queries and reduced support ticket resolution time by 50%.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "University of Florida",
+      position: "Research Assistant",
+      startDate: "Aug 2021",
+      endDate: "Feb 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed deep learning algorithms for protein structure prediction using CNNs and RNNs on large-scale PDB datasets, achieving 20% improvement in fold classification accuracy compared to traditional sequence-based methods.",
+        "Built automated data preprocessing pipelines processing over 500,000 protein sequences from UniProt database, reducing manual data preparation time by 80% and enabling high-throughput computational analysis.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
+      company: "Samsung Research Institute, India",
+      position: "Android Developer",
+      startDate: "Jul 2016",
+      endDate: "Aug 2019",
+      summary: [
+        "Developed and optimized Android applications for Samsung Galaxy devices serving 50+ million users globally, implementing Samsung-specific features like S Pen integration and Knox security framework with 99.5% crash-free rate",
+        "Enhanced application performance through memory optimization and efficient coding practices, achieving 30% faster app launch times and 25% reduction in battery consumption compared to previous versions across multiple device form factors",
+      ],
+  },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Loc8r",
+      summary: "Fullstack application using MongoDB, Express, Angular, and Node.js to list nearby places with Wi-Fi, including timings, locations and reviews.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: "/spotifu.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "WhatsPackt",
+      summary: "Android messaging application implementing real-time communication using WebSockets, data persistence, bcakup with Room and Firebase cloud storage.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: "/shopify-clon.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "MCP Weather Server",
+      summary: "Weather MCP server based on the AccuWeather REST API and integrated it to a travel agent for live weather data.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: "/clone-ig.png",
@@ -87,12 +86,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Hi, I’m Ariz Ahmad, a passionate Software Developer with a knack for crafting seamless digital experiences. With a strong background in Android, Machine Learning and AI, as well as data engineering and DevOps technologies, I thrive in the intersection where creativity meets technology.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Over the years, I’ve honed my skills in building robust, user-friendly applications and pipelines that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
     image: "/alejandro-big.jpg",
   },
 };
 
-// #5755ff
