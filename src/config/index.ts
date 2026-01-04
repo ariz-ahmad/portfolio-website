@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Ariz Ahmad — Software Engineer",
   author: "Ariz Ahmad",
   description:
-    "Software Engineer based in Atlanta, United States. Versatile software engineer with 6+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
+    "Software Engineer based in Atlanta, United States. Versatile software engineer with 7+ years building Android apps, ML models, full‑stack services, and data pipelines; delivers production systems that scale and drive measurable business outcomes.",
   lang: "en",
   siteLogo: "/ariz-small.jpeg",
   navLinks: [
@@ -67,21 +67,18 @@ export const SITE_CONTENT: SiteContent = {
       summary: "Fullstack application using MongoDB, Express, Angular, and Node.js to list nearby places with Wi-Fi, including timings, locations and reviews.",
       linkPreview: "/",
       linkSource: "https://github.com/ariz-ahmad/loc8r",
-      image: "/loc8r.png",
     },
     {
       name: "WhatsPackt",
       summary: "Android messaging application implementing real-time communication using WebSockets, data persistence, bcakup with Room and Firebase cloud storage.",
       linkPreview: "/",
       linkSource: "https://github.com/ariz-ahmad/whatspackt",
-      image: "/whatspackt.png",
     },
     {
       name: "MCP Weather Server",
       summary: "Weather MCP server based on the AccuWeather REST API and integrated it to a travel agent for live weather data.",
       linkPreview: "/",
       linkSource: "https://github.com/ariz-ahmad/mcp-weather",
-      image: "/mcp.png",
     },
   ],
   about: {
